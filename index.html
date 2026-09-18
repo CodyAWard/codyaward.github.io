@@ -206,17 +206,23 @@
       color: var(--bright-yellow);
       text-decoration: underline;
     }
+    .hobby-block .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.7rem;
+    }
     .hobby-block .game-card {
       display: inline-block;
-      margin-top: 0.55rem;
-      padding: 0.45rem 0.75rem;
+      padding: 0.35rem 0.65rem;
       background: var(--gray3);
       border: 1px solid var(--bright-magenta);
       border-radius: 3px;
       font-family: var(--mono);
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       color: var(--bright-magenta);
       transition: background 0.15s, color 0.15s;
+      text-decoration: none;
     }
     .hobby-block .game-card:hover {
       background: var(--bright-magenta);
@@ -304,7 +310,7 @@
         </ul>
 
         <div class="role">
-          <b>Manager</b> — Minecraft Accounts
+          <b>Software Engineer / Manager</b> — Minecraft Accounts
           <span class="tag">[2023]</span>
         </div>
         <ul>
@@ -313,7 +319,7 @@
         </ul>
 
         <div class="role">
-          <b>Engineer</b> — Magic: The Gathering Arena (Mobile)
+          <b>Software Engineer</b> — Magic: The Gathering Arena (Mobile)
           <span class="tag">[2022]</span>
         </div>
         <ul>
@@ -322,7 +328,7 @@
         </ul>
 
         <div class="role">
-          <b>Engineer</b> — Magic: The Gathering Arena (Mobile)
+          <b>Software Engineer</b> — Magic: The Gathering Arena (Mobile)
           <span class="tag">[2020 – 2021]</span>
         </div>
         <ul>
@@ -370,12 +376,16 @@
           Hobby programming &amp; game jamming —
           <a href="https://codyward.itch.io" target="_blank" rel="noopener">codyward.itch.io</a>
         </p>
-        <a class="game-card" href="https://codyward.itch.io/g8s" target="_blank" rel="noopener">
-          ▶ play g8s! (LOWREZJAM 2024)
-        </a>
-        <p style="margin-top:0.75rem;">
-          Camping, cooking for the kids, and getting out on walks.
-        </p>
+        <div class="game-list">
+          <a class="game-card" href="https://codyward.itch.io/g8s" target="_blank" rel="noopener">g8s!</a>
+          <a class="game-card" href="https://codyward.itch.io/press-and-putt-3d" target="_blank" rel="noopener">Press + Putt "3D"</a>
+          <a class="game-card" href="https://codyward.itch.io/press-2-putt" target="_blank" rel="noopener">Press 2 Putt</a>
+          <a class="game-card" href="https://codyward.itch.io/press-n-putt" target="_blank" rel="noopener">Press N Putt</a>
+          <a class="game-card" href="https://codyward.itch.io/lawn-in-60-seconds" target="_blank" rel="noopener">Lawn In 60 Seconds</a>
+          <a class="game-card" href="https://codyward.itch.io/drillbit" target="_blank" rel="noopener">Drillbit</a>
+          <a class="game-card" href="https://codyward.itch.io/stayaway" target="_blank" rel="noopener">s t a y a w a y</a>
+          <a class="game-card" href="https://codyward.itch.io/grab-the-green-guy" target="_blank" rel="noopener">Grab The Green Guy</a>
+        </div>
       </div>
     </section>
 
